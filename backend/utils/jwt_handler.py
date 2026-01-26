@@ -1,6 +1,6 @@
 import jwt
 import datetime
-from config import SECRET_KEY
+from backend.config import SECRET_KEY
 
 def generate_token(user_id):
     payload = {

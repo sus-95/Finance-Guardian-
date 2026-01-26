@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_cors import CORS
-from routes.auth_routes import auth_bp
+from backend.routes.auth_routes import auth_bp
 
 app = Flask(__name__)
 CORS(app)

@@ -1,4 +1,4 @@
-from database import users_collection
+from backend.database import users_collection
 
 def create_user(user_data):
     return users_collection.insert_one(user_data)
